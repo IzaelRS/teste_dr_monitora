@@ -1,0 +1,65 @@
+.container_info {
+     display: flexbox;
+     background-color: #383e5f;
+
+
+     justify-content: center;
+     height: 425px;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius: 20px 30px 20px;
+     margin-top: 16px;
+     border-top: 7px solid #505989;
+}
+
+.info_monitora {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 70%;
+     margin-bottom: 30px;
+     width: 95%;
+     background-color: #383e5f;
+     margin-left: 2%;
+     margin-right: 2%;
+     margin-top: 1%;
+
+}
+
+.titulo {
+     margin-top: 40px;
+     font-size: 30px;
+}
+
+.sub_tituloSac {
+     font-size: 25px;
+}
+
+.sub_titulon {
+     font-size: 15px;
+}
+
+.sub_tituloRf {
+     font-size: 25px;
+}
+
+.logo_drmonitora {
+     width: 95%;
+     height: 17%;
+     background-color: #383e5f;
+     margin-left: 2%;
+     margin-right: 2%;
+     background-image: url(../../assets/dr_monitora_logobranca.png);
+     background-repeat: no-repeat;
+     background-size: 400px;
+     background-position: -20 -10%;
+
+}
+
+.corp {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 12px;
+     text-align: right;
+     padding-top: 62px;
+}
